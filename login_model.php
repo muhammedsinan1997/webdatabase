@@ -8,6 +8,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty(trim($_POST["user_email"]))) {
         $useremail_err = "Please enter username.";
     } else {
+
         $useremail = trim($_POST["user_email"]);
     }
 
