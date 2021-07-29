@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3dab04-f518-471d-8192-25133f44ccf2" name="Default Changelist" comment="First commit Message">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/register_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,7 @@
       <workItem from="1627246562941" duration="530000" />
       <workItem from="1627330071079" duration="2064000" />
       <workItem from="1627333437428" duration="558000" />
-      <workItem from="1627540849624" duration="2532000" />
+      <workItem from="1627540849624" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="First commit Message">
       <created>1627245439661</created>
