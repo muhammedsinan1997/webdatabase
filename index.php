@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col"></div>
             <div class="col text-center">
-                <h3>Search for Forests and National Parks</h3>
+                <h2>Search for Forests and National Parks</h2>
             </div>
             <div class="col"></div>
         </div>
@@ -89,6 +89,7 @@
                                             <p class="m-0"> <span class="fw-bold">Latitude:</span> <span><?= $search['lat'] === null ? 'N/A' : $search['lat'] ; ?></span> </p>
 
                                             <p class="m-0"><span class="fw-bold">Longitude:</span> <span><?= $search['lng'] === null ? 'N/A':$search['lng'] ; ?></span> </p>
+                                            <p class="m-0"><span class="fw-bold">Description:</span> <span><?= $search['description'] === null ? 'N/A':$search['description'] ; ?></span> </p>
 
                                             <p class="m-0"><span class="fw-bold">URL:</span> <span><?= $search['url'] === null ? 'N/A': "<a href='{$search['url']}'  target='_blank'>view</a>"   ; ?></span> </p>
                                         </div>
@@ -109,7 +110,7 @@
 
                 <?php  endif;     ?>
             </div>
-<!--erggekjgere-->
+<!---->
 
 
             </div>

@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3dab04-f518-471d-8192-25133f44ccf2" name="Default Changelist" comment="First commit Message">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._germany1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._india1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._india2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Gir.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/germany1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/india1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/india2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/kanha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +117,8 @@
       <workItem from="1627246562941" duration="530000" />
       <workItem from="1627330071079" duration="2064000" />
       <workItem from="1627333437428" duration="558000" />
-      <workItem from="1627540849624" duration="3015000" />
+      <workItem from="1627540849624" duration="3783000" />
+      <workItem from="1628058565978" duration="5967000" />
     </task>
     <task id="LOCAL-00001" summary="First commit Message">
       <created>1627245439661</created>
