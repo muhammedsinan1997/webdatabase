@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         mysqli_close($conn);
         $_SESSION['isRegistered'] = true;
         echo "<script>window.location.href = 'login.php' </script>";
-        //header("Location: login.php");
+
     }else{
         $_SESSION['errors'] = $errors;
     }

@@ -19,6 +19,7 @@
                 <div> <img src="img/4.jpg" alt=""> </div>
                 <div> <img src="img/5.jpg" alt=""></div>
                 <div> <img src="img/6.jpg" alt=""> </div>
+                <div> <img src="img/9.jpg" alt=""> </div>
             </div>
         </div>
     </div>
@@ -62,8 +63,8 @@
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col"></div>
-            <div class="col" >
+            <div class="col-md-2"></div>
+            <div class="col-md-8" >
             <div id="searchedCards">
 
 
@@ -79,17 +80,17 @@
                         <?php foreach ($searches as $search ) : ?>
                             <div class="card mb-3" style="z-index: 10;" >
                                 <div class="row g-0">
-                                    <div class="col-md-4" style="background-image: url('<?= $search['image'] ;  ?>'); background-repeat: no-repeat;background-size: cover; " >
+                                    <div class="col-md-4" style="background-image: url('<?= $search['image'] ;  ?>'); background-repeat: no-repeat;background-size: contain; " >
 
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title"><?= $search['name']; ?></h5>
+                                            <h5 class="card-title"><?= htmlspecialchars($search['name']) ; ?></h5>
                                             <p class="m-0"> <span class="fw-bold">Area:</span> <span><?= $search['area'] === null ? 'N/A':$search['area']  ; ?></span>  <span>km²</span> </p>
                                             <p class="m-0"> <span class="fw-bold">Latitude:</span> <span><?= $search['lat'] === null ? 'N/A' : $search['lat'] ; ?></span> </p>
 
                                             <p class="m-0"><span class="fw-bold">Longitude:</span> <span><?= $search['lng'] === null ? 'N/A':$search['lng'] ; ?></span> </p>
-                                            <p class="m-0"><span class="fw-bold">Description:</span> <span><?= $search['description'] === null ? 'N/A':$search['description'] ; ?></span> </p>
+                                            <p class="m-0"><span class="fw-bold">Description:</span> <span><?= $search['description'] === null ? 'N/A':htmlspecialchars($search['description'])  ; ?></span> </p>
 
                                             <p class="m-0"><span class="fw-bold">URL:</span> <span><?= $search['url'] === null ? 'N/A': "<a href='{$search['url']}'  target='_blank'>view</a>"   ; ?></span> </p>
                                         </div>
@@ -114,7 +115,7 @@
 
 
             </div>
-            <div class="col"></div>
+            <div class="col-md-2"></div>
 
 
 

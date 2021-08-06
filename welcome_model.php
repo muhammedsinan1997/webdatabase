@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        $errors['forest'] =  "Please enter forest name.";
         $_SESSION['forest'] = [];
     } else {
-        $forestname = trim($_POST["forest"]);
+        $forestname = mysqli_real_escape_string($conn,trim($_POST["forest"]));
         $_SESSION['forest'] = $forestname;
     }
 
@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     if (!$errors) {
-            $sql = "INSERT INTO forests(country_id,name,description,url,image,area,lat,lng) VALUES ('" . $country . "','" . $forestname . "','" . $_POST['description'] . "','" . $_POST['link'] . "','" . $targetFile . "','" . $_POST['area'] . "','" . $_POST['lat'] . "','" . $_POST['lng'] . "')";
+            $sql = "INSERT INTO forests(country_id,name,description,url,image,area,lat,lng) VALUES ('" . $country . "','" . $forestname . "','" . mysqli_real_escape_string($conn, $_POST['description'])  . "','" . $_POST['link'] . "','" . $targetFile . "','" . $_POST['area'] . "','" . $_POST['lat'] . "','" . $_POST['lng'] . "')";
             $results = mysqli_query($conn, $sql);
             $_SESSION['errors'] = [];
             $_SESSION['country'] = [];

@@ -51,7 +51,7 @@
                 $('#searchedCards').append(`
                       <div class="card mb-3" style="z-index: 10;" >
                         <div class="row g-0">
-                            <div class="col-md-4" style="background-image: url(' ${res['3']}   '); background-repeat: no-repeat;background-size: cover; " >
+                            <div class="col-md-4" style="background-image: url(' ${res['3']}   '); background-repeat: no-repeat;background-size: contain; " >
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -59,6 +59,7 @@
                                     <p class="m-0"> <span class="fw-bold">Area:</span> ${checkValues(res['6'],0)} <span>km²</span> </p>
                                     <p class="m-0"> <span class="fw-bold">Latitude:</span> <span>${checkValues(res['4'],0)} </span> </p>
                                     <p class="m-0"><span class="fw-bold">Longitude:</span> <span>${checkValues(res['5'],0)}</span> </p>
+                                    <p class="m-0"><span class="fw-bold">Description:</span> <span>${checkValues(res['9'],0)}</span> </p>
                                     <p class="m-0"><span class="fw-bold">URL:</span> <span> ${checkValues(res['2'],1)}</span></p>
                                 </div>
                             </div>
